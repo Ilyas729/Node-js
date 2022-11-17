@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizza Form</h1>
+    <fieldset>
+     <legend><h3>Personal Info</h3></legend>
+     <div>
+        <label for="">First Name:</label>
+        <input name="first name" type="text"> 
+     </div>
+     <br><div>
+        <label for="">Last Name:</label>
+        <input name="last name" type="text">
+     </div>
+     <br><div>
+        <label for="">Phone:</label>
+        <input name="phone" type="number">
+     </div>
+
+    </fieldset>
+    <fieldset>
+        <legend><h3>Pizza</h3></legend>
+        <div>
+            <label for="">Size:</label>
+            <input name="size" type="radio">Small
+            <input name="size" type="radio">Medium
+            <input name="size" type="radio">Large
+        </div>
+        <br><div>
+            <label>Toppings(check all that apply):</label>
+            <p><input name="toppings" type="checkbox">Extra Cheese            
+            <input name="toppings" type="checkbox">Pepperoni
+            <input name="toppings" type="checkbox">Sausage</p>
+            <p><input name="toppings" type="checkbox">Mushrooms
+            <input name="toppings" type="checkbox">Black Olives
+            <input name="toppings" type="checkbox">Green Pappers</p>
+            <input name="toppings" type="checkbox">Tomatos
+            <input name="toppings" type="checkbox">Onions
+            <input name="toppings" type="checkbox">Anchovies
+        </div>
+    </fieldset>
+    <br><div>
+        <button>Enter My Information</button>
+    </div>
+
+
+    <br><h1>My feedback form</h1>
+    <ul>
+        <li>
+            <label for="">Name:</label>
+            <input type="text">
+        </li>
+        <li>
+            <label for="">Email:</label>
+            <input type="email">
+        </li>
+        <li>
+            <label for="">Password:</label>
+            <input type="password">
+        </li>
+    </ul>
+    <br><ul>
+        <li>
+           <h4> Please check all the emotions that apply to you:</h4>
+           <ul style="list-style-type:disc ;">
+            <li>
+                <label for="">Angry</label>
+                <input type="checkbox">
+            </li>
+            <li>
+                <label for="">Sad</label>
+                <input type="checkbox">
+            </li>
+            <li>
+                <label for="">Happy</label>
+                <input type="checkbox">
+            </li>
+            <li>
+                <label for="">Ambivalent</label>
+                <input type="checkbox">
+            </li>
+           </ul>
+        </li>
+    </ul>
+    <br><ul>
+        <li><h4>How satisfied were you with our service?</h4>
+        <ul style="list-style-type:disc;">
+            <li>
+                <label for="">Very satisfied</label>
+                <input type="radio">
+            </li>
+            <li>
+                <label for="">Satisfied</label>
+                <input type="radio">
+            </li>
+            <li>
+                <label for="">Didn`t care</label>
+                <input type="radio">
+            </li>
+            <li>
+                <label for="">Dissatisfied</label>
+                <input type="radio">
+            </li>
+            <li>
+                <label for="">Very dissatisfied</label>
+                <input type="radio">
+            </li>
+        </ul>
+    </li>
+    </ul>
+    <ul>
+        <li>
+           <label for="">Further comments:</label>
+           <textarea name="Further comments" id="" cols="30" rows="10"></textarea>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <label for="">Bio photo:</label>
+            <input type="file">
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <label for="">Loction visited:</label>
+            <select>
+                <option value="">Select Location</option>
+            </select>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <button>Submit</button>
+        </li>
+    </ul>
+
+    <br><h1>Travel reservation form</h1>
+    <h3>*denotes mandotory</h3>
+    <table>
+        <tr>
+            <td>
+                <label for="">Full Name*:</label>
+                <input type="text" placeholder="First Name Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Email Address*:</label>
+                <input type="email" placeholder="EMAIL_ADDRESS">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Select Tour Package*:</label>
+                <select name="" id="">
+                    <option value="">Goa</option>
+                    <option value="">Bali</option>
+                    <option value="">Maldives</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Arrival Date*:</label>
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Number of Persons*:</label>
+                <input type="number" placeholder="UNKNOWN_TYPE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">What would you want to avail?*:</label>
+                <input type="checkbox">Boarding
+                <input type="checkbox">Fooding
+                <input type="checkbox">Sight seeing
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Discout Coupon Code*:</label>
+                <input type="number" placeholder="UNKNOWN_TYPE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Terms and conditions*:</label>
+                <input type="radio" name="agree?">I agree
+                <input type="radio" name="disagree?">I disagree
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>Complete reservation</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
