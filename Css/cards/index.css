@@ -1,0 +1,27 @@
+.box{
+    width:25%;
+    background-color: deeppink;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.instagram{
+    width: 50px;
+    color: white;
+}
+.title{
+    text-transform: uppercase;
+}
+.lorem{
+
+}
+.read-more{
+    width: 100%;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    color: crimson;
+}

@@ -1,0 +1,17 @@
+h1{
+   color: brown; 
+}
+img{
+    float: right;
+}
+h2{
+    color: blue;
+    background-color: cornflowerblue;
+}
+.number{
+    color: blue;
+    font-weight: 1000;
+}
+.abc{
+    color: blue;
+}
