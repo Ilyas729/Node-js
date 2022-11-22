@@ -1,0 +1,32 @@
+.box{
+    width: 33%;
+    border: 2px;
+    border-style: inset;
+    border-color: darkgreen;
+    padding: 10px;
+    border-radius: 30px;
+    height: 500px;
+    background-color: white;
+}
+img{
+    border-radius: 30px;
+}
+span{
+ border-radius: 30px;
+ border: 1px;
+ border-color: black;
+ border-style:inset;
+ padding: 5px;
+}
+a{
+    border: 2px;
+    border-radius: 60px;
+    border-style: inset;
+    padding: 10px;
+    color: blue;
+    background-color: aqua;
+}
+body{
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
