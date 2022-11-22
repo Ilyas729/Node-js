@@ -1,0 +1,36 @@
+.box-blue{
+    background-color: cornflowerblue;
+}
+.H1{
+    color: white;
+}
+.H6{
+    color: white;
+}
+.box-green{
+    width: 50%;
+    background-color:green;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+    margin-left: 20px;
+}
+.box-red{
+    width: 25%;
+    background-color:red;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+    margin-left: 20px;
+    border: 50px;
+    border-radius:  20px;
+
+}
+.box-darkblue{
+    background-color: midnightblue;
+    color: white;
+}
