@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 60px;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    float: right;
+}
+.nav-item{
+    display: inline-block;
+    padding: 10px 20px;
+  
+}
+.nav-item a {
+    text-decoration: none;
+    color: rgb(53, 46, 46);
+    font-weight: 600;
+}
+header{
+    padding: 60px;
+}
+.nav-item.active{
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 56, 255);
+    text-decoration-style:solid ;
+    text-decoration-thickness: 2px;
+    
+}
+main{
+    height: 400px;
+    background-image: url(./processing.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-position-y:bottom ;
+    margin:0 60px;
+    padding: 60px 0;
+}
+.lorem{
+    color:rgb(56, 56, 255) ;
+    margin-bottom: 0;
+}
+.landing{
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+.sign-up{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(56, 56, 255);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.show-more{
+ display: inline-block;
+ padding: 10px 20px;
+ text-decoration: none;
+ color:rgb(56, 56, 255) ;
+ font-weight: 600;
+}
