@@ -1,0 +1,19 @@
+.flex-container{
+    padding: 15px;
+    border: 2px solid rgb(42, 250, 111);
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    
+    /*align-items: stretch;*/
+    align-items: baseline;
+    
+
+}
+.flex-item{
+    width: 100px;
+    min-height: 50px;
+    background-color: orange;
+}
