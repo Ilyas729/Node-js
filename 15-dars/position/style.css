@@ -1,0 +1,23 @@
+.wrapper{
+   /* background-color: rgb(235, 84, 84);
+    width: 600px;
+    height: 2500px;*/
+}
+.box{
+    background-color: crimson;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    margin: 100px;
+}
+.badge{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+    width: 200px;
+}

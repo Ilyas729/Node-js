@@ -1,0 +1,36 @@
+.box{
+    width: 300px;
+    height: 500px;
+    margin: 200px 500px;
+    background-color: rgba(22, 10, 57, 0.726);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.icons{
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content:space-between ;
+}
+.box-i i{
+    margin-left: 10px;
+}
+.img{
+    width: 80px;
+    border-radius: 100px;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    border-radius: 100px;
+    background-image: linear-gradient(to right, blueviolet, rgb(234, 28, 234));
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 50px;
+    left: -10px;
+    color: aliceblue;
+}
