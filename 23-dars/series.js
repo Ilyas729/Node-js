@@ -177,16 +177,27 @@ const prompt = require('prompt-sync')()
 //  console.log(summ);
 
 //15 masala
-let n = 5
-let k = 5
-let p
-for (let i = 1; i <= n; i++) {
-    const x = +prompt(`${i}-sonni kiriting: `)
-    if (x > k) {
-        p = x;
-        break;
-    }
-    console.log(p);
-}
+// let n = 5
+// let k = 5
+// let p
+// for (let i = 1; i <= n; i++) {
+//     const x = +prompt(`${i}-sonni kiriting: `)
+//     if (x > k) {
+//         p = x;
+//         break;
+//     }
+//     console.log(p);
+// }
 
-// console.log(summ);
+// // console.log(summ);
+
+//15 masala v1
+// let k = 5
+// let sum = 0
+// let n =5
+// for (let i = 1; i < k; i++) {
+//     const n = +prompt(`${i}-sonni kiriting: `)
+//     if (n > k) {
+//         console.log(n); break;
+//     }else console.log(0);
+// }

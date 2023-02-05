@@ -107,3 +107,80 @@
 // console.log(x);
 // console.log(y);
 
+
+//HW
+
+//1 masala
+
+// function sumOf(m:number[], a:number, b:number){
+//     let evens: number[] = m.filter(index=> index==a && index==b)
+
+//     console.log(evens);
+    
+// }
+// sumOf([1,2,3,4,5,6,7,8,9],2,3)
+
+//2 masala
+
+// type Point={
+//         x: number
+//         y: number
+//     }
+
+//     let Start: Point ={
+//             x: 3,
+//             y: 3
+//         }
+        
+//     let End:Point ={
+//             x:5,
+//             y:10
+//         }
+//     function distance(Start:Point,End:Point){
+//           let d:number=Math.sqrt((End.x-Start.x)**2 + (End.y-Start.y)**2)
+//           console.log(d);
+          
+//     }
+//     distance(Start,End)
+
+// 3 masala
+
+// type Product = {
+//     name:string,
+//     price:number
+// }
+
+// const fruct1: Product={
+//     name:'apple',
+//     price:5
+// }
+// const fruct2: Product={
+//     name:'abricot',
+//     price:10
+// }
+// const fruct3: Product={
+//     name:'melon',
+//     price:15
+// }
+// const fruct4: Product={
+//     name:'watermelon',
+//     price:20
+// }
+// const fruct5: Product={
+//     name:'ananas',
+//     price:25
+// }
+
+// let m:Product[]=[fruct1,fruct2,fruct3,fruct4,fruct5]
+// let sum=m.filter(n => n.price)
+// console.log(sum);
+// //console.log(m);
+
+// // function totalPrice(m:Product[]){
+// //     let sum=m.filter(n => n.price++)
+// //     console.log(sum);
+// //     return sum
+// // }
+
+// // totalPrice()
+
