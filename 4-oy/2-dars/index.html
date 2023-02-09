@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <button id="to_register">To Register</button>
+        <button id="to_login">To Login</button>
+        <button id="to_users">To User List</button>
+    </nav>
+    <section id="login" class="hide">
+        <h1>Login</h1>
+        <input id="username" placeholder="Username" type="text">
+        <input id="password" placeholder="Password" type="text">
+        <button id="login">Login</button>
+    </section>
+
+    <section id="register" class="hide">
+        <h1>Register</h1>
+        <input id="reg_username" placeholder="Username" type="text">
+        <input id="reg_password" placeholder="Password" type="text">
+        <input id="reg_name" placeholder="Name" type="text">
+        <input id="reg_age"  placeholder="Age" type="text">
+        <button id="register">Register</button>
+    </section>
+
+    <section id="users" class="hide">
+        <h1>Users</h1>
+        <ol id="users" >
+            <li>Diyorbek 13 yosh</li>
+        </ol>
+    </section>
+</body>
+<script type="module" src="main.js"></script>
+</html>
