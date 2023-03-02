@@ -1,0 +1,11 @@
+# GET  http://localhost:8080/products  HTTP/1.1
+
+# GET http://localhost:8080/products/3 HTTP/1.1
+
+# GET http://localhost:8080/products/4/images HTTP/1.1
+
+# GET http://localhost:8080/products/category/fragrances HTTP/1.1
+
+# GET http://localhost:8080/products/brand/Impression of Acqua Di Gio HTTP/1.1
+
+ GET http://localhost:8080/products/search?q=Samsung Universe 9 HTTP/1.1
